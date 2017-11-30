@@ -1,0 +1,90 @@
+body {
+    height: 200%;
+    width: 100%;
+    top: 0;
+    margin: auto;
+    background-image: url(i1.jpg);
+    background-size: cover;
+    display: table;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 290px;
+    color: white;
+    font-size: 70px;
+    font-family: "Lato"; 
+    background-color: 000000;
+    opacity: 0.7;
+}
+
+button {    
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: 000000;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 25;
+    font-family: "Lato";
+    color: white;
+}
+
+
+button:hover {
+    background-color: white;
+    color: black;
+    
+
+}
+
+p { 
+    left: 32%;
+    margin-top: -50px;
+    color: white;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 25px;
+    top: 60%;   
+    background-color: 000000;
+    opacity: 0.7;
+}
+    
+#wrapper {
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    color: white;
+    height = 40px;
+    width = 100px;
+}
+    
+#s1 {
+    background: black;
+}
+
+#s2  {
+    background-color: red;
+}
+
+li {
+    list-style-type: none;      
+    float: left;
+    padding: 7px;
+    color: black;
+    background-color: white;
+    opacity = 0.7;
+}

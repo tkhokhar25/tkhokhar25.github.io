@@ -1,59 +1,129 @@
 {
     "fooditems":[
         {
-            "type": "Ingredient",
-            "name": "Puri",
-            "cost": "10"
+            "time": "Breakfast",
+            "type": "Finished Dish",
+            "name": "Bacon egg and cheese sandwich",
+            "cost": "7.99"
         },
         {
-            "type": "Ingredient",
-            "name": "Vegetable Oil",
-            "cost": "20"    
+            "time": "Breakfast",
+            "type": "Finished Dish",
+            "name": "Bagel",
+            "cost": "1.99"
+        },
+        {
+            "time": "Breakfast",
+            "type": "Finished Dish",
+            "name": "Bagel with cream cheese",
+            "cost": "2.99"
+        },
+        {
+            "time": "Breakfast",
+            "type": "Finished Dish",
+            "name": "Bagel with garlic and herb",
+            "cost": "3.99"  
+        },
+        {
+            "time": "Breakfast",
+            "type": "Finished Dish",
+            "name": "Boiled eggs",
+            "cost": "1.99"
+        },
+        {
+            "time": "Breakfast",
+            "type": "Finished Dish",
+            "name": "Cheese Toast",
+            "cost": "3.99"  
         },
         {   
             "type": "Ingredient",
-            "name": "Chaat Masala",
-            "cost": "15"
+            "name": "Bacon",
+            "cost": "1.99"
         },
         {
             "type": "Ingredient",
-            "name": "Yogurt",
-            "cost": "25"
+            "name": "Eggs",
+            "cost": "0.99"
         },
         {
             "type": "Ingredient",
-            "name": "Bhel",
-            "cost": "5"
+            "name": "Cheese",
+            "cost": "0.99"
         },
         {
             "type": "Ingredient",
-            "name": "Spicy Water",
-            "cost": "30"
+            "name": "Bagel Bread",
+            "cost": "0.99"
         },
         {
             "type": "Ingredient",
-            "name": "Potato",
-            "cost": "35"    
+            "name": "Cream Cheese",
+            "cost": "0.99"    
         },
         {
-            "type": "Finished Dish",
-            "name": "Pani Puri"   
+            "type": "Ingredient",
+            "name": "Garlic and Herb Spread",
+            "cost": "1.99"   
         },
         {
-            "type": "Finished Dish",
-            "name": "Bhel Puri" 
+            "type": "Ingredient",
+            "name": "Bread",
+            "cost": "0.99"  
         },
         {
+            "time": "Lunch",
             "type": "Finished Dish",
-            "name": "Dahi Puri"    
+            "name": "Chicken Breast",
+            "cost": "10.99"
         },
         {
+            "time": "Lunch",
             "type": "Finished Dish",
-            "name": "Aalu Chaat"    
+            "name": "Hummus",
+            "cost": "9.99"
         },
         {
+            "time": "Lunch",
             "type": "Finished Dish",
-            "name": "Samosa"    
+            "name": "Fries",
+            "cost": "3.99"
+        },
+        {
+            "time": "Lunch",
+            "type": "Finished Dish",
+            "name": "Burger",
+            "cost": "5.99"
+        },
+        {
+            "type": "Ingredient",
+            "name": "Chicken",
+            "cost": "3.99"
+        },
+        {
+            "type": "Ingredient",
+            "name": "Chicken Spices",
+            "cost": "1.99"
+        },
+        {
+            "type": "Ingredient",
+            "name": "Chickpeas",
+            "cost": "2.99"
+        },
+        {
+            "type": "Ingredient",
+            "name": "tahini",
+            "cost": "1.99"
+        },
+        {
+            "type": "Ingredient",
+            "name": "Burger Bread",
+            "cost": "1.99"
+        },
+        {
+            "type": "Ingredient",
+            "name": "Veggies",
+            "cost": "2.99"
         }
     ],
     "equipments": [
@@ -80,25 +150,55 @@
     ],
     "recipe": [
         {
-            "name": "Pani Puri",
-            "ingredients":["Puri", "Spicy Water", "Chaat Masala"],
-            "equipment": "Cooking Pot"
+            "name": "Bacon egg and cheese sandwich",
+            "ingredients":["Bacon", "Eggs", "Cheese"],
+            "equipment": "Toaster"
         },
         {
-            "name": "Bhel Puri",
-            "ingredients": ["Puri", "Bhel"],
-            "equipment": "Mixer"
+            "name": "Bagel",
+            "ingredients": ["Bagel Bread"],
+            "equipment": "Toaster"
         },
         {
-            "name": "Dahi Puri",
-            "ingredients": ["Puri", "Potato"],
+            "name": "Bagel with cream cheese",
+            "ingredients": ["Bagel Bread", "Potato"],
+            "equipment": "Toaster"
+        },
+        {
+            "name": "Bagel with garlic and herb",
+            "ingredients": ["Potato"],
+            "equipment": "Toaster"
+        },
+        {
+            "name": "Boiled eggs",
+            "ingredients":["Bacon", "Eggs", "Cheese"],
             "equipment": "Pressure Cooker"
         },
         {
-            "name": "Samosa",
-            "ingredients": ["Potato"],
+            "name": "Cheese Toast",
+            "ingredients": ["Bagel Bread", "Cream Cheese"],
+            "equipment": "Toaster"
+        },
+        {
+            "name": "Chicken Breast",
+            "ingredients": ["Chicken", "Chicken Spices"],
             "equipment": "Oven"
+        },
+        {
+            "name": "Hummus",
+            "ingredients": ["Chickpeas", "tahini"],
+            "equipment": "Mixer"
+        },
+        {
+            "name": "Fries",
+            "ingredients": ["Potato"],
+            "equipment": "Cooking Pot"
+        },
+        {
+            "name": "Burger",
+            "ingredients": ["Burger Bread", "Veggies"],
+            "equipment": "Microwave"
         }
     ],
-    "menu": ["Pani Puri", "Bhel Puri", "Dahi Puri", "Samosa"]
+    "menu": ["Bacon egg and cheese sandwich", "Bagel", "Bagel with cream cheese", "Bagel with garlic and herb", "Boiled eggs", "Cheese Toast", "Chicken Breast", "Hummus", "Fries", "Burger"]
 }

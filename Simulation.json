@@ -1,0 +1,104 @@
+{
+    "FoodItems":[
+        {
+            "type": "Ingredient",
+            "name": "Puri",
+            "cost": "10"
+        },
+        {
+            "type": "Ingredient",
+            "name": "Vegetable Oil",
+            "cost": "20"    
+        },
+        {   
+            "type": "Ingredient",
+            "name": "Chaat Masala",
+            "cost": "15"
+        },
+        {
+            "type": "Ingredient",
+            "name": "Yogurt",
+            "cost": "25"
+        },
+        {
+            "type": "Ingredient",
+            "name": "Bhel",
+            "cost": "5"
+        },
+        {
+            "type": "Ingredient",
+            "name": "Spicy Water",
+            "cost": "30"
+        },
+        {
+            "type": "Ingredient",
+            "name": "Potato",
+            "cost": "35"    
+        },
+        {
+            "type": "Finished Dish",
+            "name": "Pani Puri"   
+        },
+        {
+            "type": "Finished Dish",
+            "name": "Bhel Puri" 
+        },
+        {
+            "type": "Finished Dish",
+            "name": "Dahi Puri"    
+        },
+        {
+            "type": "Finished Dish",
+            "name": "Aalu Chaat"    
+        },
+        {
+            "type": "Finished Dish",
+            "name": "Samosa"    
+        }
+    ],
+    "Equipments": [
+        {
+            "name": "Cooking Pot",
+            "cost": "40"
+        },
+        {
+            "name": "Pressure Cooker",
+            "cost": "70"
+        },
+        {
+            "name": "Mixer",
+            "cost": "60"
+        },
+        {
+            "name": "Microwave",
+            "cost": "20"
+        },
+        {
+            "name": "Oven",
+            "cost": "90"
+        }
+    ],
+    "Recipe": [
+        {
+            "name": "Pani Puri",
+            "ingredients":["Puri", "Spicy Water", "Chaat Masala"],
+            "equipment": "Cooking Pot"
+        },
+        {
+            "name": "Bhel Puri",
+            "ingredients": ["Puri", "Bhel"],
+            "equipment": "Mixer"
+        },
+        {
+            "name": "Dahi Puri",
+            "ingredients": ["Puri", "Potato"],
+            "equipment": "Pressure Cooker"
+        },
+        {
+            "name": "Samosa",
+            "ingredients": ["Potato"],
+            "equipment": "Oven"
+        }
+    ],
+    "Menu": ["Pani Puri", "Bhel Puri", "Dahi Puri", "Samosa"]
+}

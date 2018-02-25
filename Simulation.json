@@ -1,5 +1,5 @@
 {
-    "FoodItems":[
+    "fooditems":[
         {
             "type": "Ingredient",
             "name": "Puri",
@@ -56,7 +56,7 @@
             "name": "Samosa"    
         }
     ],
-    "Equipments": [
+    "equipments": [
         {
             "name": "Cooking Pot",
             "cost": "40"
@@ -78,7 +78,7 @@
             "cost": "90"
         }
     ],
-    "Recipe": [
+    "recipe": [
         {
             "name": "Pani Puri",
             "ingredients":["Puri", "Spicy Water", "Chaat Masala"],
@@ -100,5 +100,5 @@
             "equipment": "Oven"
         }
     ],
-    "Menu": ["Pani Puri", "Bhel Puri", "Dahi Puri", "Samosa"]
+    "menu": ["Pani Puri", "Bhel Puri", "Dahi Puri", "Samosa"]
 }

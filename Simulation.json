@@ -129,76 +129,97 @@
     "equipments": [
         {
             "name": "Cooking Pot",
-            "cost": "40"
+            "cost": "40",
+            "upkeep": "5"
         },
         {
             "name": "Pressure Cooker",
-            "cost": "70"
+            "cost": "70",
+            "upkeep": "5"
         },
         {
             "name": "Mixer",
-            "cost": "60"
+            "cost": "60",
+            "upkeep": "5"
         },
         {
             "name": "Microwave",
-            "cost": "20"
+            "cost": "20",
+            "upkeep": "5"
         },
         {
             "name": "Oven",
-            "cost": "90"
+            "cost": "90",
+            "upkeep": "5"
         }
     ],
     "recipe": [
         {
             "name": "Bacon egg and cheese sandwich",
             "ingredients":["Bacon", "Eggs", "Cheese"],
-            "equipment": "Toaster"
+            "equipment": "Toaster",
+            "time": "10"
         },
         {
             "name": "Bagel",
             "ingredients": ["Bagel Bread"],
-            "equipment": "Toaster"
+            "equipment": "Toaster",
+            "time": "5"
         },
         {
             "name": "Bagel with cream cheese",
             "ingredients": ["Bagel Bread", "Potato"],
-            "equipment": "Toaster"
+            "equipment": "Toaster",
+            "time": "10"
         },
         {
             "name": "Bagel with garlic and herb",
             "ingredients": ["Potato"],
-            "equipment": "Toaster"
+            "equipment": "Toaster",
+            "time": "10"
         },
         {
             "name": "Boiled eggs",
             "ingredients":["Bacon", "Eggs", "Cheese"],
-            "equipment": "Pressure Cooker"
+            "equipment": "Pressure Cooker",
+            "time": "10"
         },
         {
             "name": "Cheese Toast",
             "ingredients": ["Bagel Bread", "Cream Cheese"],
-            "equipment": "Toaster"
+            "equipment": "Toaster",
+            "time": "10"
         },
         {
             "name": "Chicken Breast",
             "ingredients": ["Chicken", "Chicken Spices"],
-            "equipment": "Oven"
+            "equipment": "Oven",
+            "time": "20"
         },
         {
             "name": "Hummus",
             "ingredients": ["Chickpeas", "tahini"],
-            "equipment": "Mixer"
+            "equipment": "Mixer",
+            "time": "20"
         },
         {
             "name": "Fries",
             "ingredients": ["Potato"],
-            "equipment": "Cooking Pot"
+            "equipment": "Cooking Pot",
+            "time": "5"
         },
         {
             "name": "Burger",
             "ingredients": ["Burger Bread", "Veggies"],
-            "equipment": "Microwave"
+            "equipment": "Microwave",
+            "time": "10"
         }
     ],
-    "menu": ["Bacon egg and cheese sandwich", "Bagel", "Bagel with cream cheese", "Bagel with garlic and herb", "Boiled eggs", "Cheese Toast", "Chicken Breast", "Hummus", "Fries", "Burger"]
+    "menu": [],
+    "wealth": "2000000",
+    "inventory": {
+        "fooditems": [],
+        "equipments": [],
+        "recipe": []
+    }
 }

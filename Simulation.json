@@ -215,11 +215,5 @@
             "time": "10"
         }
     ],
-    "menu": [],
     "wealth": "2000000",
-    "inventory": {
-        "fooditems": [],
-        "equipments": [],
-        "recipe": []
-    }
 }

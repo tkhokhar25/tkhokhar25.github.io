@@ -155,61 +155,61 @@
     ],
     "recipe": [
         {
-            "name": "Bacon egg and cheese sandwich",
+            "name": "Bacon egg and cheese sandwich recipe",
             "ingredients":["Bacon", "Eggs", "Cheese"],
             "equipment": "Toaster",
             "time": "10"
         },
         {
-            "name": "Bagel",
+            "name": "Bagel recipe",
             "ingredients": ["Bagel Bread"],
             "equipment": "Toaster",
             "time": "5"
         },
         {
-            "name": "Bagel with cream cheese",
+            "name": "Bagel with cream cheese recipe",
             "ingredients": ["Bagel Bread", "Potato"],
             "equipment": "Toaster",
             "time": "10"
         },
         {
-            "name": "Bagel with garlic and herb",
+            "name": "Bagel with garlic and herb recipe",
             "ingredients": ["Potato"],
             "equipment": "Toaster",
             "time": "10"
         },
         {
-            "name": "Boiled eggs",
+            "name": "Boiled eggs recipe",
             "ingredients":["Bacon", "Eggs", "Cheese"],
             "equipment": "Pressure Cooker",
             "time": "10"
         },
         {
-            "name": "Cheese Toast",
+            "name": "Cheese Toast recipe",
             "ingredients": ["Bagel Bread", "Cream Cheese"],
             "equipment": "Toaster",
             "time": "10"
         },
         {
-            "name": "Chicken Breast",
+            "name": "Chicken Breast recipe",
             "ingredients": ["Chicken", "Chicken Spices"],
             "equipment": "Oven",
             "time": "20"
         },
         {
-            "name": "Hummus",
+            "name": "Hummus recipe",
             "ingredients": ["Chickpeas", "tahini"],
             "equipment": "Mixer",
             "time": "20"
         },
         {
-            "name": "Fries",
+            "name": "Fries recipe",
             "ingredients": ["Potato"],
             "equipment": "Cooking Pot",
             "time": "5"
         },
         {
-            "name": "Burger",
+            "name": "Burger recipe",
             "ingredients": ["Burger Bread", "Veggies"],
             "equipment": "Microwave",
             "time": "10"

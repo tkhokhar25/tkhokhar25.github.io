@@ -151,6 +151,11 @@
             "name": "Oven",
             "cost": "90",
             "upkeep": "5"
+        },
+        {
+            "name": "Toaster",
+            "cost": "15",
+            "upkeep": "5"
         }
     ],
     "recipe": [

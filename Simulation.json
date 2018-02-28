@@ -37,36 +37,43 @@
             "cost": "3.99"  
         },
         {   
+            "time": "NA",
             "type": "Ingredient",
             "name": "Bacon",
             "cost": "1.99"
         },
         {
+            "time": "NA",
             "type": "Ingredient",
             "name": "Eggs",
             "cost": "0.99"
         },
         {
+            "time": "NA",
             "type": "Ingredient",
             "name": "Cheese",
             "cost": "0.99"
         },
         {
+            "time": "NA",
             "type": "Ingredient",
             "name": "Bagel Bread",
             "cost": "0.99"
         },
         {
+            "time": "NA",
             "type": "Ingredient",
             "name": "Cream Cheese",
             "cost": "0.99"    
         },
         {
+            "time": "NA",
             "type": "Ingredient",
             "name": "Garlic and Herb Spread",
             "cost": "1.99"   
         },
         {
+            "time": "NA",
             "type": "Ingredient",
             "name": "Bread",
             "cost": "0.99"  
@@ -96,31 +103,37 @@
             "cost": "5.99"
         },
         {
+            "time": "NA",
             "type": "Ingredient",
             "name": "Chicken",
             "cost": "3.99"
         },
         {
+            "time": "NA",
             "type": "Ingredient",
             "name": "Chicken Spices",
             "cost": "1.99"
         },
         {
+            "time": "NA",
             "type": "Ingredient",
             "name": "Chickpeas",
             "cost": "2.99"
         },
         {
+            "time": "NA",
             "type": "Ingredient",
             "name": "tahini",
             "cost": "1.99"
         },
         {
+            "time": "NA",
             "type": "Ingredient",
             "name": "Burger Bread",
             "cost": "1.99"
         },
         {
+            "time": "NA",
             "type": "Ingredient",
             "name": "Veggies",
             "cost": "2.99"

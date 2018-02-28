@@ -210,7 +210,7 @@
         },
         {
             "name": "boiled eggs recipe",
-            "ingredients":["Bacon", "Eggs", "Cheese"],
+            "ingredients":["Eggs"],
             "equipment": "Pressure Cooker",
             "time": "10"
         },

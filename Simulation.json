@@ -137,6 +137,18 @@
             "type": "Ingredient",
             "name": "Veggies",
             "cost": "2.99"
+        },
+        {
+            "time": "Dinner",
+            "type": "Finished Dish",
+            "name": "Mashed Potatoes",
+            "cost": "12.99"
+        },
+        {
+            "time": "NA",
+            "type": "Ingredient",
+            "name": "Potato",
+            "cost": "1.99"
         }
     ],
     "equipments": [
@@ -229,6 +241,12 @@
         {
             "name": "burger recipe",
             "ingredients": ["Burger Bread", "Veggies"],
+            "equipment": "Microwave",
+            "time": "10"
+        },
+        {
+            "name": "mashed potatoes recipe",
+            "ingredients": ["Potato"],
             "equipment": "Microwave",
             "time": "10"
         }

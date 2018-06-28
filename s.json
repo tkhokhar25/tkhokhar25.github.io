@@ -1,0 +1,649 @@
+response = {
+    "status": "success",
+    "data": {
+        "property": {
+            "metadata": {
+                "address_match": "exact",
+                "property_id": 945046,
+                "updated_at": None,
+                "property_classification_code": None,
+                "error_message": None
+            },
+            "address": {
+                "street_number": "151",
+                "street_name": "Battle Green",
+                "street_pre_direction": None,
+                "street_direction": None,
+                "street_suffix": "Dr",
+                "unit_type": None,
+                "unit_number": None,
+                "formatted_street_address": "151 Battle Green Dr",
+                "city": "Rochester",
+                "state": "NY",
+                "zip_code": "14624",
+                "zip_code_plus_four": 4969,
+                "latitude": 43.108229,
+                "longitude": -77.704545
+            },
+            "site": {
+                "sublocality_id": None,
+                "locality_id": None,
+                "land_use_code": None,
+                "zoning": "02",
+                "zoning_category": "Residential",
+                "zoning_description": "Single Family Residence",
+                "depth": 125,
+                "width": 75,
+                "size": 9583,
+                "acres": 0.22,
+                "range": None,
+                "township": None,
+                "section": None,
+                "block": None,
+                "lot": None,
+                "view": None,
+                "location_description": None,
+                "building_count": 1,
+                "parcel_id": "2622001470900002006000",
+                "tax_account_id": "262200-147-090-0002-006-000",
+                "legal_description": None,
+                "title": None
+            },
+            "structures": [
+                {
+                    "year_built": 1989,
+                    "effective_year_built": None,
+                    "rooms_count": None,
+                    "beds_count": 4,
+                    "baths_count": 3,
+                    "half_baths_count": 1,
+                    "full_baths_count": 2,
+                    "quarter_baths_count": None,
+                    "three_quarter_baths_count": None,
+                    "stories_count": 2,
+                    "units_count": None,
+                    "total_size": 1975,
+                    "finished_size": 1975,
+                    "unfinished_size": 0,
+                    "basement_size": None,
+                    "garage_size": 400,
+                    "architecture_type": "Colonial",
+                    "exterior_wall_type": "Aluminum/vinyl",
+                    "air_conditioning_type": "Central",
+                    "basement_type": None,
+                    "building_type": None,
+                    "category": "Single family",
+                    "condition": "Average",
+                    "construction_type": None,
+                    "fireplace_count": 1,
+                    "fireplace_type": None,
+                    "foundation_type": None,
+                    "flooring_type": None,
+                    "garage_type": "Attached",
+                    "heating_type": "Hot Air",
+                    "mobile_home": None,
+                    "parking_spaces": None,
+                    "parking_type": "Attached Garage",
+                    "pool_type": None,
+                    "quality": None,
+                    "roof_type": None,
+                    "roof_style_type": None,
+                    "electricity_type": None,
+                    "fuel_type": "Oil",
+                    "sewer_type": "Commercial",
+                    "water_type": "Commercial"
+                }
+            ],
+            "postal": {
+                "carrier_code": None,
+                "delivery_point_code": None,
+                "delivery_point_check_digit": None,
+                "validated": "N",
+                "deliverable": None,
+                "details": None
+            },
+            "boundaries": {
+                "geoJSON": None,
+                "WKT": None
+            },
+            "valuation": {
+                "value": 173587,
+                "type": None,
+                "low": None,
+                "high": None,
+                "confidence": None,
+                "suggested_rental": None,
+                "market_value_change_year": None,
+                "market_value_change_quarter": None,
+                "forecast_1_year": 177295,
+                "version": "2.10"
+            },
+            "status": {
+                "rental": "True",
+                "vacant": None,
+                "market_status": None,
+                "foreclosure": None,
+                "rental_price": None,
+                "listing_price": None,
+                "details": None
+            },
+            "taxes": [
+                {
+                    "land": 31400,
+                    "improvement": 127900,
+                    "total": 159300,
+                    "tax_amount": 6958,
+                    "tax_year": 2016,
+                    "details": None,
+                    "outstanding_tax": None,
+                    "appraised_total": None,
+                    "appraised_land": None,
+                    "appraised_improvement": None,
+                    "exemptions": None
+                }
+            ],
+            "sales": [
+                {
+                    "date": "2017-04-04",
+                    "recording_date": "2017-06-06",
+                    "price": 170000,
+                    "type": "Grant Deed",
+                    "seller": "CROWLEY CHRISTOPHER M",
+                    "buyer": None,
+                    "transaction_id": "20160530176",
+                    "document_year": 2017,
+                    "sale_code": None,
+                    "multiAPN": 1,
+                    "hpi_adjusted_price_2010": 153729,
+                    "deed_book": None,
+                    "deed_page": None
+                },
+                {
+                    "date": "2013-10-07",
+                    "recording_date": "2013-10-11",
+                    "price": 155000,
+                    "type": "Grant Deed",
+                    "seller": None,
+                    "buyer": None,
+                    "transaction_id": "2013102131",
+                    "document_year": "2013",
+                    "sale_code": None,
+                    "multiAPN": 1,
+                    "hpi_adjusted_price_2010": 155144,
+                    "deed_book": None,
+                    "deed_page": None
+                }
+            ],
+            "mortgages": [
+                {
+                    "amount": 166920,
+                    "loan_type": "Federal Housing Authority",
+                    "deed_type": "Mortgage Deed",
+                    "date": "2017-06-06",
+                    "term": 30,
+                    "due_date": None,
+                    "lender_name": None,
+                    "details": None
+                }
+            ],
+            "owners": [
+                {
+                    "corporate_flag": False,
+                    "name": "BELLUCCIO NICHOLAS M",
+                    "second_name": None,
+                    "phone": None,
+                    "address": "150 Daffodil Trl",
+                    "address2": None,
+                    "city": "Rochester",
+                    "state": "NY",
+                    "zip": "14626",
+                    "first_name": "NICHOLAS",
+                    "middle_name": "M",
+                    "last_name": "BELLUCCIO",
+                    "suffix": None,
+                    "gender": None,
+                    "second_first_name": None,
+                    "second_middle_name": None,
+                    "second_last_name": None,
+                    "second_suffix": None,
+                    "second_gender": None,
+                    "email": None,
+                    "started_at": None,
+                    "ended_at": None
+                },
+                {
+                    "corporate_flag": False,
+                    "name": "CROWLEY CHRISTOPHER M",
+                    "second_name": None,
+                    "phone": None,
+                    "address": None,
+                    "address2": None,
+                    "city": None,
+                    "state": None,
+                    "zip": None,
+                    "first_name": "CHRISTOPHER",
+                    "middle_name": "M",
+                    "last_name": "CROWLEY",
+                    "suffix": None,
+                    "gender": None,
+                    "second_first_name": None,
+                    "second_middle_name": None,
+                    "second_last_name": None,
+                    "second_suffix": None,
+                    "second_gender": None,
+                    "email": None,
+                    "started_at": None,
+                    "ended_at": "2017-04-04"
+                }
+            ],
+            "comparables": [
+                {
+                    "property": {
+                        "metadata": {
+                            "property_id": 18086626,
+                            "comp_score": 9.67,
+                            "distance": None
+                        },
+                        "address": {
+                            "street_number": "149",
+                            "street_name": "Battle Green",
+                            "street_pre_direction": None,
+                            "street_direction": None,
+                            "street_suffix": "Dr",
+                            "unit_type": None,
+                            "unit_number": None,
+                            "formatted_street_address": "149 Battle Green Dr",
+                            "city": "Rochester",
+                            "state": "NY",
+                            "zip_code": "14624",
+                            "zip_code_plus_four": 4969,
+                            "latitude": "43.108397000",
+                            "longitude": "-77.704386000"
+                        }
+                    }
+                },
+                {
+                    "property": {
+                        "metadata": {
+                            "property_id": 63553322,
+                            "comp_score": 8.75,
+                            "distance": None
+                        },
+                        "address": {
+                            "street_number": "153",
+                            "street_name": "Battle Green",
+                            "street_pre_direction": None,
+                            "street_direction": None,
+                            "street_suffix": "Dr",
+                            "unit_type": None,
+                            "unit_number": None,
+                            "formatted_street_address": "153 Battle Green Dr",
+                            "city": "Rochester",
+                            "state": "NY",
+                            "zip_code": "14624",
+                            "zip_code_plus_four": 4969,
+                            "latitude": "43.108068000",
+                            "longitude": "-77.704709000"
+                        }
+                    }
+                }
+            ]
+        },
+        "geographic": {
+            "districts": {
+                "cbsa": {
+                    "name": None,
+                    "code": None,
+                    "type": None
+                },
+                "school_district_elementary": {
+                    "id": 8504,
+                    "geoid": "3611880",
+                    "name": "Gates-Chili Central School District",
+                    "low_grade": "PK",
+                    "high_grade": "12",
+                    "type": "Unified",
+                    "state_id": 33,
+                    "latitude": "43.1349355",
+                    "longitude": "-77.7123294",
+                    "distance": "1.89112209088242"
+                },
+                "school_district_secondary": {
+                    "id": 8504,
+                    "geoid": "3611880",
+                    "name": "Gates-Chili Central School District",
+                    "low_grade": "PK",
+                    "high_grade": "12",
+                    "type": "Unified",
+                    "state_id": 33,
+                    "latitude": "43.1349355",
+                    "longitude": "-77.7123294",
+                    "distance": "1.89112209088242"
+                },
+                "congressional_district": "",
+                "state_legislative_district_upper": "State Senate District 61",
+                "state_legislative_district_lower": "Assembly District 138",
+                "police_jurisdiction": {
+                    "name": "Rochester Police Department",
+                    "type": "City",
+                    "city": "Rochester",
+                    "state_fips": "36",
+                    "county_fips": None
+                },
+                "fire_jurisdiction": {
+                    "fdid": "28008",
+                    "name": "Rochester Fire Department",
+                    "address": "185 Exchange BLVD STE 665",
+                    "address_2": "Public Safety BLDG",
+                    "city": "Rochester",
+                    "zipcode": "14614",
+                    "phone": "585-428-6739",
+                    "mailing_address": "185 Exchange BLVD STE 665, Public Safety BLDG, Rochester, NY, 14614",
+                    "department_type": "Career",
+                    "organization_type": "Local",
+                    "website": "http://www.cityofrochester.gov/rfd/",
+                    "stations_count": 15,
+                    "career_firefighters_count": 501,
+                    "volunteer_firefighters_count": 0,
+                    "paid_per_call_firefighters_count": 0,
+                    "non_firefighting_staff_count": 0,
+                    "interpolated_latitude": None,
+                    "interpolated_longitude": None,
+                    "county": "Monroe",
+                    "state": "New York"
+                },
+                "neighborhood": None,
+                "census_tract": 14504,
+                "census_block": None,
+                "county": {
+                    "name": "Monroe",
+                    "fips_code": "36055"
+                }
+            },
+            "entities": {
+                "fire_halls": [
+                    {
+                        "feature_name": "Chili Fire Department Station 3",
+                        "type": "Building",
+                        "latitude": "43.1177086",
+                        "longitude": "-77.7214265",
+                        "distance": "1.07"
+                    },
+                    {
+                        "feature_name": "Gates Volunteer Fire Department Station 1",
+                        "type": "Building",
+                        "latitude": "43.1287685",
+                        "longitude": "-77.6954701",
+                        "distance": "1.49"
+                    }
+                ],
+                "police_stations": [],
+                "medical_centers": [],
+                "post_offices": [
+                    {
+                        "feature_name": "Westgate Post Office",
+                        "type": "Post Office",
+                        "latitude": "43.1335003",
+                        "longitude": "-77.6920441",
+                        "distance": "1.86"
+                    }
+                ],
+                "points_of_interest": [
+                    {
+                        "feature_name": "Rochester International Commerce Center",
+                        "type": "Locale",
+                        "latitude": "43.105479",
+                        "longitude": "-77.70056",
+                        "distance": "0.28"
+                    },
+                    {
+                        "feature_name": "Jetview Business Park",
+                        "type": "Locale",
+                        "latitude": "43.110635",
+                        "longitude": "-77.697374",
+                        "distance": "0.40"
+                    },
+                    {
+                        "feature_name": "Broklea Country Club",
+                        "type": "Locale",
+                        "latitude": "43.1317287",
+                        "longitude": "-77.7058377",
+                        "distance": "1.62"
+                    },
+                    {
+                        "feature_name": "Coldwater Station",
+                        "type": "Locale",
+                        "latitude": "43.1291667",
+                        "longitude": "-77.7363889",
+                        "distance": "2.16"
+                    },
+                    {
+                        "feature_name": "Coldwater Lumber Industrial Park",
+                        "type": "Locale",
+                        "latitude": "43.1338",
+                        "longitude": "-77.7296",
+                        "distance": "2.17"
+                    }
+                ],
+                "parks": [
+                    {
+                        "feature_name": "Genesee Valley Park",
+                        "type": "Park",
+                        "latitude": "43.1133956",
+                        "longitude": "-77.6525023",
+                        "distance": "2.65"
+                    },
+                    {
+                        "feature_name": "Anthony Square",
+                        "type": "Park",
+                        "latitude": "43.1536733",
+                        "longitude": "-77.6266683",
+                        "distance": "5.03"
+                    },
+                    {
+                        "feature_name": "Veterans Memorial Park",
+                        "type": "Park",
+                        "latitude": "43.0658959",
+                        "longitude": "-77.6216673",
+                        "distance": "5.10"
+                    },
+                    {
+                        "feature_name": "Jones Square",
+                        "type": "Park",
+                        "latitude": "43.1675621",
+                        "longitude": "-77.628613",
+                        "distance": "5.61"
+                    },
+                    {
+                        "feature_name": "Teoronto Block Historic District",
+                        "type": "Park",
+                        "latitude": "43.1616667",
+                        "longitude": "-77.6191667",
+                        "distance": "5.67"
+                    }
+                ],
+                "natural": [
+                    {
+                        "feature_name": "Little Black Creek",
+                        "type": "Stream",
+                        "latitude": "43.111451",
+                        "longitude": "-77.6866701",
+                        "distance": "0.93"
+                    },
+                    {
+                        "feature_name": "Black Creek",
+                        "type": "Stream",
+                        "latitude": "43.0945067",
+                        "longitude": "-77.6800031",
+                        "distance": "1.56"
+                    },
+                    {
+                        "feature_name": "Mill Creek",
+                        "type": "Stream",
+                        "latitude": "43.0878398",
+                        "longitude": "-77.7594503",
+                        "distance": "3.11"
+                    },
+                    {
+                        "feature_name": "Red Creek",
+                        "type": "Stream",
+                        "latitude": "43.1197845",
+                        "longitude": "-77.6394462",
+                        "distance": "3.38"
+                    },
+                    {
+                        "feature_name": "Methodist Hill",
+                        "type": "Summit",
+                        "latitude": "43.0625625",
+                        "longitude": "-77.6491682",
+                        "distance": "4.21"
+                    },
+                    {
+                        "feature_name": "Munson Hill",
+                        "type": "Summit",
+                        "latitude": "43.0406178",
+                        "longitude": "-77.759172",
+                        "distance": "5.42"
+                    },
+                    {
+                        "feature_name": "Woodchuck Hill",
+                        "type": "Summit",
+                        "latitude": "43.1722836",
+                        "longitude": "-77.7755628",
+                        "distance": "5.69"
+                    }
+                ],
+                "libraries": [
+                    {
+                        "feature_name": "Wallace Library",
+                        "type": "Building",
+                        "latitude": "43.0838889",
+                        "longitude": "-77.6763889",
+                        "distance": "2.20"
+                    }
+                ],
+                "museums": [
+                    {
+                        "feature_name": "Strong Museum",
+                        "type": "Building",
+                        "latitude": "43.152621",
+                        "longitude": "-77.601422",
+                        "distance": "6.04"
+                    }
+                ],
+                "schools": [
+                    {
+                        "name": "St Pius Tenth School",
+                        "type": "private",
+                        "grade_range": None,
+                        "district": None,
+                        "address": "3000 Chili Avenue,Rochester, NY 14624",
+                        "phone": None,
+                        "latitude": "43.11",
+                        "longitude": "-77.73",
+                        "distance": "1.29"
+                    },
+                    {
+                        "name": "Paul Road School",
+                        "type": "public",
+                        "grade_range": "PK-5",
+                        "district": "Gates-Chili Central School District",
+                        "address": "571 Paul Road, Rochester, NY 14624",
+                        "phone": None,
+                        "latitude": "43.11",
+                        "longitude": "-77.73",
+                        "distance": "1.29"
+                    },
+                    {
+                        "name": "Florence Brasser School",
+                        "type": "public",
+                        "grade_range": None,
+                        "district": "Gates-Chili Central School District",
+                        "address": "1000 Coldwater Road,Rochester, NY 14624",
+                        "phone": None,
+                        "latitude": "43.11",
+                        "longitude": "-77.74",
+                        "distance": "1.79"
+                    },
+                    {
+                        "name": "Crestwood Childrens Center",
+                        "type": "private",
+                        "grade_range": "PK-8",
+                        "district": None,
+                        "address": "2075 Scottsville Road, Rochester, NY 14623",
+                        "phone": None,
+                        "latitude": "43.08",
+                        "longitude": "-77.7",
+                        "distance": "1.96"
+                    },
+                    {
+                        "name": "St. Helen School",
+                        "type": "private",
+                        "grade_range": "PK-6",
+                        "district": None,
+                        "address": "150 Lettington Drive, Rochester, NY 14624",
+                        "phone": None,
+                        "latitude": "43.14",
+                        "longitude": "-77.68",
+                        "distance": "2.52"
+                    },
+                    {
+                        "name": "Walt Disney School",
+                        "type": "public",
+                        "grade_range": None,
+                        "district": "Gates-Chili Central School District",
+                        "address": "175 Coldwater Road,Rochester, NY 14624",
+                        "phone": None,
+                        "latitude": "43.14",
+                        "longitude": "-77.74",
+                        "distance": "2.83"
+                    },
+                    {
+                        "name": "Gates Chili Middle School",
+                        "type": "public",
+                        "grade_range": "6-8",
+                        "district": "Gates-Chili Central School District",
+                        "address": "2 Spartan Way, Rochester, NY 14624",
+                        "phone": None,
+                        "latitude": "43.15",
+                        "longitude": "-77.71",
+                        "distance": "2.90"
+                    },
+                    {
+                        "name": "Gates Chili High School",
+                        "type": "public",
+                        "grade_range": "9-12",
+                        "district": "Gates-Chili Central School District",
+                        "address": "1 Spartan Way, Rochester, NY 14624",
+                        "phone": None,
+                        "latitude": "43.15",
+                        "longitude": "-77.71",
+                        "distance": "2.90"
+                    },
+                    {
+                        "name": "Hope Hall School",
+                        "type": "private",
+                        "grade_range": "3-12",
+                        "district": None,
+                        "address": "1612 Buffalo Road, Rochester, NY 14624",
+                        "phone": None,
+                        "latitude": "43.15",
+                        "longitude": "-77.69",
+                        "distance": "2.98"
+                    },
+                    {
+                        "name": "Dr Walter Cooper Academy",
+                        "type": "public",
+                        "grade_range": "PK-6",
+                        "district": "Rochester City School District",
+                        "address": "353 Congress Avenue, Rochester, NY 14619",
+                        "phone": None,
+                        "latitude": "43.13",
+                        "longitude": "-77.65",
+                        "distance": "3.14"
+                    }
+                ]
+            }
+        }
+    }
+}

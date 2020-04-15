@@ -5,7 +5,7 @@ html, body{
   font-family: "Nanum Gothic", sans-serif;
   font-weight: normal;
   /* background-color: cornflowerblue; */
-  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('./back.jpg');
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('./assets/back.jpg');
   background-size: cover;
 }
 
@@ -55,6 +55,10 @@ p {
     padding-bottom: 20px;
 }
 
-.same_line {
-    display: inline-block;
+.profile-icon {
+    padding-right: 2%
+ }
+
+ .profile-icon:hover {
+     opacity: 0.5;
  }
